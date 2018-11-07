@@ -8,7 +8,9 @@ Explaining Archives of Project:
 - Folder CSS: Some classes who is applied into the HTML with some styles;
 - Folder IMG: Into this folder we has some images utilized into the page;
 
-# Version used in the project: CSS, HTML
+# Used in the project: 
+
+CSS, HTML
 
 # How to Run Project
 
