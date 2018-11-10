@@ -15,7 +15,7 @@ CSS, HTML
 # How to Run Project
 
 Make download of the project to your computer or clone this repository.
-Unpack all these folders in the same place. After that you need execute the file called "main.html"
+Unpack all these folders in the same place. After that you need execute the file called "portfolio.htm"
 
 Att: This project can be runned with all browsers.
 
