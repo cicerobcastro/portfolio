@@ -1,9 +1,35 @@
+/* SPECIFC PROJECT SECTION */
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+/* HEADER SECTION */
+.h1,.h2{
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.h1{
+   font-size: 32px; 
+}
+.h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
 .logo{
-    width: 80px;
+    width: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
 }
 .title-works{
     text-align: center;
 }
+
+/* BODY SECTION */
+
 .img-center{
     width: 100%;
 }
@@ -17,25 +43,77 @@
 .line{
     width: 100%;
 }
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
 
-.responsive {
-    max-width: 100%;
-    height: auto;
-}
-.h1,.h2{
-    text-align: right;
-}
-.h1{
-   font-size: 32px; 
-}
-.h2{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-}
+
+/* FOOTER SECTION */
+
 .contact{
     margin-top: -15px;
     padding-bottom: 20px;
 }
-.card{
-    padding-right: 5px;
-}
+  
+/* Media Queries SECTION */
+
+
+  @media only screen and (max-width: 990px) /* Tablet */ {
+
+    .h1{
+        font-size: 30px;
+    }
+    .h2{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .card-title{
+        font-size: 17px;
+    }
+    .card-text{
+        font-size: 13px;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) /* Mobile */ {
+
+    .h1{
+        font-size: 30px;
+    }
+    .h2{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .card-title{
+        font-size: 15px;
+    }
+    .card-text{
+        font-size: 12px;
+    }
+    .title-works{
+        font-size: 25px;
+    }   
+
+  }
+
+  @media only screen and (min-width: 768px) /* Mobile */ {
+
+    .h1{
+        font-size: 30px;
+    }
+    .h2{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .card-title{
+        font-size: 15px;
+    }
+    .card-text{
+        font-size: 12px;
+    }
+    .title-works{
+        font-size: 25px;
+    }   
+    
+  }
